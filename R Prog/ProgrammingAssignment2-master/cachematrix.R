@@ -1,7 +1,6 @@
-##
+## The two functions below try to set the matrix data and get their inverse; save it in cache to reduce computation time
 
-## Write a short comment describing this function
-
+## makeCacheMatrix sets the data of matrix to be ready for inverse cache
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
